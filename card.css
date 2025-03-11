@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.Testinomial-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Testinomial-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;;
+}
+
+.Testinomial-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    scale: 1.05;
+};
+
+/* .Testinomial-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+} */
+
+.Testinomial-content{
+    padding: 10px;
+}
+
+.Testinomial-text{
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.Testinomial-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.Testinomial-role{
+    font-size:14px ;
+    color:#888;
+}
+
+
+
+.Testimonial-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
